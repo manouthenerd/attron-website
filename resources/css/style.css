@@ -75,8 +75,7 @@
 
 .loader {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     animation: fadeIn .8s;
 }
 
@@ -253,7 +252,6 @@ section div h3 {
 }
 
 #section-2 {
-    transform: translateX(-200px);
     display: flex;
     flex-wrap: wrap;
     background-color: #fff;
@@ -292,7 +290,7 @@ section div h3 {
 
 .section-2 .card-container {
     padding: 20px 0;
-    background: #1B356A;
+    background: #1718181F;
     margin: 20px 5px 10px 5px;
     display: flex;
     flex-wrap: wrap;
@@ -302,7 +300,7 @@ section div h3 {
 
 .section-2 .card {
     padding: 5px;
-    background-color: #fff;
+    background-color: #053A4A;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -314,12 +312,12 @@ section div h3 {
     &.card .title {
         margin: 5px 0;
         text-align: center;
-        color: #000;
+        color: #fff;
         font-weight: 600;
     }
 
     .card-content {
-        /* padding: 5px; */
+        color: #fff;
         width: 100%;
     }
 
@@ -344,17 +342,12 @@ section div h3 {
         border: none;
         font-weight: bold;
         background-color: #9D8C47;
-        color: #000;
+        color: #053A4A;
         font-family: Arial, Helvetica, sans-serif;
         padding: 5px;
         border-radius: 5px;
-        transition: color .5s, background-color .5s;
     }
 
-    .button-box button:hover {
-        color: #fff;
-        background-color: #053A4A;
-    }
 
 }
 
@@ -394,6 +387,20 @@ footer {
     text-wrap: wrap;
     margin-top: 50px;
     text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+    .loader-text {
+        font-size: 35px;
+    }
+
+    .loader-text img {
+        width: 77px;
+    }
+
+    #loader-box span {
+        width: 27px;
+    }
 }
 
 
