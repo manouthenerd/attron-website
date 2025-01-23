@@ -1,7 +1,9 @@
-@import "./leaflet.css";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "./about.css";
 
 * {
     scroll-behavior: smooth;
+    font-family: "Rubik", sans-serif;
 }
 
 .fondu-out {
@@ -251,6 +253,7 @@ section div h3 {
 }
 
 #section-2 {
+    transform: translateX(-200px);
     display: flex;
     flex-wrap: wrap;
     background-color: #fff;
@@ -266,6 +269,7 @@ section div h3 {
 }
 
 .box {
+    line-height: 30px;
     padding: 10px;
     border: 1px solid transparent;
     box-shadow: 1px 1px #bcbcbc;
@@ -372,7 +376,7 @@ section div h3 {
     border-radius: 5px;
     padding: 5px;
     height: auto;
-    width: 200px;
+    min-width: 200px;
 
 }
 

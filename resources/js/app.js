@@ -1,7 +1,6 @@
 import "./bootstrap";
-import "./switch"
+import "./about"
 import "./map"
-// import "../css/style.css"
 
 let burgerMenuButton = document.querySelector(".burger-menu");
 let mobileNavbar = document.querySelector(".mobile-navbar");

@@ -18,12 +18,12 @@
     <section id="section-2">
         <div class="box">
             <h3>Confiez votre dossier aux experts</h3>
+
             <p>
-                L'aventure continue et, nous espérons la vivre pleinement avec vous.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur aut animi recusandae at et saepe.
+                L'expertise d'une entreprise en comptabilité se caractérise par des comptables qualifiés, une
+                expérience diversifiée, une formation continue, l'utilisation de logiciels modernes, une
+                solide réputation et une offre de services variée, garantissant des solutions adaptées aux besoins de
+                ses clients.
             </p>
             <div id="mini-circle"></div>
         </div>
@@ -139,17 +139,6 @@
                 </div>
             </div>
 
-            <div class="card-2">
-                <div class="header">
-                    <span>
-                        <img src="/assets/icons/location.svg" alt="contact icon" />
-                    </span>
-                    <span> Localisation </span>
-                </div>
-                <div>
-                    <p>Treichville, Rue 21 avenue 17</p>
-                </div>
-            </div>
 
             <div class="card-2">
                 <div class="header">
@@ -160,6 +149,18 @@
                 </div>
                 <div>
                     <p>example@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="card-2">
+                <div class="header">
+                    <span>
+                        <img src="/assets/icons/location.svg" alt="contact icon" />
+                    </span>
+                    <span> Localisation </span>
+                </div>
+                <div>
+                    <p>Treichville, Rue 21 avenue 17</p>
                 </div>
             </div>
 

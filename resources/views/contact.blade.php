@@ -21,7 +21,7 @@
             <input class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="contact" type="password" placeholder="+225012030405">
           </div>
           <div class="mb-6">
-            <label class="block text-gray-700 text-sm font-bold mb-2" for="contact">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
               Adresse email
             </label>
             <input class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="contact@gmail.com">
