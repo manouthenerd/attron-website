@@ -134,8 +134,8 @@
                     <span> Contact </span>
                 </div>
                 <div>
-                    <p>+225 XX XX XX XX</p>
-                    <p>+225 XX XX XX XX</p>
+                    <p>+225 07 08 11 68 11</p>
+                    <p>+225 07 48 73 52 56</p>
                 </div>
             </div>
 
@@ -163,9 +163,12 @@
                 </div>
             </div>
 
+            <div class="w-full h-[300px]" id="map"></div>
+
         </div>
     </section>
 </main>
+
 
 
 @include('partials.footer')

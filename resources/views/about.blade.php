@@ -18,7 +18,7 @@
                 <li>le Marketing, l'édition, l'étude, la recherche, l'entrepreneuriat et la pédagogie;</li>
                 <li>L'informatique, la télécommunication et la communication;</li>
                 <li>la représentation de marque diverses;</li>
-                <li>Ventes et Achates de fournitures dde bureau, matériels et mobiliers de bureau;</li>
+                <li>Ventes et Achates de fournitures de bureau, matériels et mobiliers de bureau;</li>
                 <li>Prestations diverses.</li>
             </ul>
         </div>
@@ -31,6 +31,39 @@
                         class="flex justify-center gap-1 items-center text-center mb-8 font-bold text-[20px] text-[#053A4A]">
                         Nos domaines d'expertises
                         <img class="size-[25]" src="/assets/icons/certificate.svg" alt="certification svg">
+                    </h3>
+                </div>
+                <div class="grid gap-[5rem]">
+                    <div class="flex justify-center gap-[5.5rem] flex-wrap">
+                        <div class="size-[200px] rounded-full border border-solid bg-gray-200">
+                            <img class="image" src="" alt="image d'illustration">
+                            <p class="title text-xs text-[#053A4A] text-center font-bold mt-4">Management</p>
+                        </div>
+                        <div class="size-[200px] rounded-full border border-solid bg-gray-200">
+                            <img class="image" src="" alt="image d'illustration">
+                            <p class="title text-xs text-[#053A4A] text-center font-bold mt-4">Management</p>
+                        </div>
+                        <div class="size-[200px] rounded-full border border-solid bg-gray-200">
+                            <img class="image" src="" alt="image d'illustration">
+                            <p class="title text-xs text-[#053A4A] text-center font-bold mt-4">Management</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center gap-3">
+                        <button class="size-[30px] rounded-full bg-white button"></button>
+                        <button class="size-[30px] rounded-full bg-white button"></button>
+                        <button class="size-[30px] rounded-full bg-white button"></button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="mt-16">
+                <div>
+                    <h3
+                        class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-[#053A4A]">
+                        Notre équipe
+                        <img class="size-[25]" src="/assets/icons/team.svg" alt="team svg">
                     </h3>
                 </div>
                 <div class="flex justify-center flex-wrap gap-6">
@@ -50,8 +83,8 @@
                 <div>
                     <h3
                         class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-[#053A4A]">
-                        Notre équipe
-                        <img class="size-[25]" src="/assets/icons/team.svg" alt="team svg">
+                        Nos partenaires
+                        <img class="size-[25]" src="/assets/icons/partners.svg" alt="partners svg">
                     </h3>
                 </div>
                 <div class="flex justify-center flex-wrap gap-6">
