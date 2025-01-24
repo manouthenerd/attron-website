@@ -217,7 +217,10 @@ section div h3 {
     width: 100%;
 }
 
+
 #circle {
+    opacity: 0;
+    transform: translateY(100px);
     margin: 190px 5px;
     color: #fff;
     padding: 5px;
@@ -227,8 +230,8 @@ section div h3 {
     place-content: center;
     border-radius: 100%;
     align-items: center;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background: #9D8C47;
     filter: drop-shadow(4px 6px 21px #bcbcbc);
     transition: all .5s;
@@ -258,13 +261,30 @@ section div h3 {
     justify-content: space-around;
 }
 
-#mini-circle {
+#section-2 .head-2 {
+    color: #9d8c47;
+}
+
+#section-2 .box {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all .5s;
+}
+
+.mini-circle {
     margin: 10px 0;
     height: 100px;
     width: 100px;
     border-radius: 100%;
+}
+
+#mini-circle1 {
     background-color: #053A4A;
 }
+#mini-circle2 {
+    background-color: #9d8c47;
+}
+
 
 .box {
     line-height: 30px;
@@ -387,6 +407,13 @@ footer {
     text-wrap: wrap;
     margin-top: 50px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 450px) {
+    h3 {
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (max-width: 650px) {

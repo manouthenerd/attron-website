@@ -2,12 +2,12 @@
 
 <main class="h-full mt-8 min-[700px]:mx-16 bg-[#bcbc] p-2 rounded-sm">
     <h3 class="text-center mb-8 font-bold text-[25px] text-[#053A4A]">
-        À propos de ATRON CAB
+        À propos de ATTRON CAB
     </h3>
 
     <section class="grid place-content-center gap-4 mt-4">
         <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
-            ATRON CAB est une société basée en Côte d'Ivoire ayant pour activités principales:
+            ATTRON CAB est une société basée en Côte d'Ivoire ayant pour activités principales:
             <ul class="list-[square] list-inside space-y-4 mt-4">
                 <li>la comptabilité, la fiscalité;</li>
                 <li>la formation continue, technique, classique et diverse en tout domaine;</li>

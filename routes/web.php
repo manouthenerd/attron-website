@@ -9,3 +9,5 @@ Route::view('/', 'home');
 Route::view('/about', 'about');
 
 Route::view('/contact', 'contact');
+
+// Route::get('/services', 'services');

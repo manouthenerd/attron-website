@@ -4,12 +4,12 @@
     <section id="hero-section">
         <div id="circle" class="p-4">
             <h4 class="text-white">
-                Bienvenue chez <span class="font-bold">ATRON CAB</span>
+                Bienvenue chez <span class="font-bold">ATTRON CAB</span>
             </h4>
             <p>
-                Votre cabiner d'expert dans le domaine de la finance, la comptabilité et bien d'autres...
+                Votre cabinet d'expertise dans le domaine de la finance, la comptabilité et de la communication.
             </p>
-            <a href="/about" class="mt-8 rounded-md p-2 border-none">
+            <a id="about-link" href="/about" class="mt-8 rounded-md p-2 border-none">
                 En savoir +
             </a>
         </div>
@@ -17,7 +17,7 @@
 
     <section id="section-2">
         <div class="box">
-            <h3>Confiez votre dossier aux experts</h3>
+            <h3>Rapprochez-vous des experts</h3>
 
             <p>
                 L'expertise d'une entreprise en comptabilité se caractérise par des comptables qualifiés, une
@@ -25,15 +25,21 @@
                 solide réputation et une offre de services variée, garantissant des solutions adaptées aux besoins de
                 ses clients.
             </p>
-            <div id="mini-circle"></div>
+            <div id="mini-circle1" class="mini-circle"></div>
         </div>
 
         <div class="box">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
-            similique ut sapiente distinctio fugiat eligendi consequatur atque
-            amet fugit dolorum aut. Magni numquam, odit, architecto natus
-            cupiditate reprehenderit magnam in sequi corrupti et similique. Soluta
-            dignissimos tempora cumque illo saepe!
+
+            <h3 class="head-2">Des services de qualités et sur mesure.</h3>
+
+            <p>
+                Nous vous offrons des services de qualité, conçus sur mesure pour répondre à vos besoins spécifiques.
+                Chaque prestation est pensée pour vous apporter une solution optimale, alliant expertise, écoute et
+                personnalisation. Parce que chaque projet est unique, nous nous engageons à vous fournir un
+                accompagnement sur mesure, afin de garantir votre entière satisfaction.
+            </p>
+
+            <div id="mini-circle2" class="mini-circle"></div>
         </div>
     </section>
 

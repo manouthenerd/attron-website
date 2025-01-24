@@ -1,6 +1,7 @@
 import "./bootstrap";
 import "./about"
 import "./map"
+import "./gsap"
 
 let burgerMenuButton = document.querySelector(".burger-menu");
 let mobileNavbar = document.querySelector(".mobile-navbar");
