@@ -2,7 +2,7 @@
 
 
 <main class="mt-4">
-    <h3 class="text-center mb-8 font-bold text-[25px] text-[#053A4A]">
+    <h3 class="text-center mb-8 font-bold text-[25px] text-darkBlue">
         Veuillez remplire le formulaire ci-dessous
     </h3>
 

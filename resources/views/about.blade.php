@@ -1,7 +1,7 @@
 @include('partials.header')
 
 <main class="h-full mt-8 min-[700px]:mx-16 bg-[#bcbc] p-2 rounded-sm">
-    <h3 class="text-center mb-8 font-bold text-[25px] text-[#053A4A]">
+    <h3 class="text-center mb-8 font-bold text-[25px] text-darkBlue">
         À propos de ATTRON CAB
     </h3>
 
@@ -28,7 +28,7 @@
             <div>
                 <div>
                     <h3
-                        class="flex justify-center gap-1 items-center text-center mb-8 font-bold text-[20px] text-[#053A4A]">
+                        class="flex justify-center gap-1 items-center text-center mb-8 font-bold text-[20px] text-darkBlue">
                         Nos domaines d'expertises
                         <img class="size-[25]" src="/assets/icons/certificate.svg" alt="certification svg">
                     </h3>
@@ -37,15 +37,15 @@
                     <div class="flex justify-center gap-[5.5rem] flex-wrap">
                         <div class="size-[200px] rounded-full border border-solid bg-gray-200">
                             <img class="image" src="" alt="image d'illustration">
-                            <p class="title text-xs text-[#053A4A] text-center font-bold mt-4"></p>
+                            <p class="title text-xs text-darkBlue text-center font-bold mt-4"></p>
                         </div>
                         <div class="size-[200px] rounded-full border border-solid bg-gray-200">
                             <img class="image" src="" alt="image d'illustration">
-                            <p class="title text-xs text-[#053A4A] text-center font-bold mt-4"></p>
+                            <p class="title text-xs text-darkBlue text-center font-bold mt-4"></p>
                         </div>
                         <div class="size-[200px] rounded-full border border-solid bg-gray-200">
                             <img class="image" src="" alt="image d'illustration">
-                            <p class="title text-xs text-[#053A4A] text-center font-bold mt-4"></p>
+                            <p class="title text-xs text-darkBlue text-center font-bold mt-4"></p>
                         </div>
                     </div>
                     <div class="flex justify-center gap-3">
@@ -61,7 +61,7 @@
             <div class="mt-16">
                 <div>
                     <h3
-                        class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-[#053A4A]">
+                        class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-darkBlue">
                         Notre équipe
                         <img class="size-[25]" src="/assets/icons/team.svg" alt="team svg">
                     </h3>
@@ -82,7 +82,7 @@
             <div class="mt-16">
                 <div>
                     <h3
-                        class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-[#053A4A]">
+                        class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-darkBlue">
                         Nos partenaires
                         <img class="size-[25]" src="/assets/icons/partners.svg" alt="partners svg">
                     </h3>

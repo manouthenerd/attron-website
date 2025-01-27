@@ -10,7 +10,7 @@
 </nav>
 <nav id="default-navbar" class="flex w-full justify-between items-center min-h-8 px-2">
     <div id="logo" class="w-[100px]">
-        <a href="/"><img src="/assets/logo-ATTRON.png" alt="logo ATTRON cab" /></a>
+        <a href="/"><img src="/assets/logo-atron.png" alt="logo ATTRON cab" /></a>
     </div>
 
     <div id="links" class="flex gap-4 font-bold">

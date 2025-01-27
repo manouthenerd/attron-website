@@ -24,7 +24,7 @@
     <div id="loader-box">
         <p class="loader-text">
             ATTRON CAB
-            <img src="/assets/logo-ATTRON.png" alt="logo ATTRON" width="100" height="100">
+            <img src="/assets/logo-atron.png" alt="logo ATTRON" width="100" height="100">
         </p>
         <p class="loader">
             <span></span>
