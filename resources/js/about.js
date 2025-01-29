@@ -43,7 +43,6 @@ if(location.pathname == '/about') {
     const images = document.querySelectorAll(".image");
     const buttons = document.querySelectorAll(".button");
     const titles = document.querySelectorAll(".title");
-    const color = "#f97316";
     
     buttons[0].setAttribute("style", "background-color: #f97316");
     

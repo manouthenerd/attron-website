@@ -16,7 +16,8 @@ export default {
             },
             colors: {
                 darkBlue: '#053A4A',
-                darkGold: '#9D8C47'
+                darkGold: '#9D8C47',
+                kaki: '#9d8c477d'
             }
         },
     },

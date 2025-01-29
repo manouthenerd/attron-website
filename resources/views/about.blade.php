@@ -49,9 +49,9 @@
                         </div>
                     </div>
                     <div class="flex justify-center gap-3">
-                        <button class="size-[30px] rounded-full bg-white button text-center">1</button>
-                        <button class="size-[30px] rounded-full bg-white button text-center">2</button>
-                        <button class="size-[30px] rounded-full bg-white button text-center">3</button>
+                        <button class="small-button size-[30px] rounded-full bg-white button text-center">1</button>
+                        <button class="small-button size-[30px] rounded-full bg-white button text-center">2</button>
+                        <button class="small-button size-[30px] rounded-full bg-white button text-center">3</button>
                     </div>
                 </div>
 
@@ -68,13 +68,16 @@
                 </div>
                 <div id="team" class="flex justify-center flex-wrap gap-6">
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-
+                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
                     </div>
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-
+                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
                     </div>
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-
+                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
                     </div>
                 </div>
             </div>
@@ -89,13 +92,16 @@
                 </div>
                 <div class="flex justify-center flex-wrap gap-6">
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-
+                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
                     </div>
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-
+                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
                     </div>
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-
+                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
                     </div>
                 </div>
             </div>

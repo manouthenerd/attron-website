@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import "./about.css";
 
 * {
     scroll-behavior: smooth;
     font-family: "Rubik", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .fondu-out {
@@ -209,6 +212,10 @@ section div h3 {
     font-size: 25px;
 }
 
+h3 {
+    font-size: 20px !important;
+}
+
 #hero-section {
     padding-top: 20px;
     background: url("/public/assets/background.jpg") center top;
@@ -219,8 +226,6 @@ section div h3 {
 
 
 #circle {
-    opacity: 0;
-    transform: translateY(100px);
     margin: 190px 5px;
     color: #fff;
     padding: 5px;
@@ -234,7 +239,7 @@ section div h3 {
     width: 400px;
     background: #9D8C47;
     filter: drop-shadow(4px 6px 21px #bcbcbc);
-    transition: all .5s;
+    transition: all .2s;
 }
 
 #circle a {
@@ -264,13 +269,6 @@ section div h3 {
 #section-2 .head-2 {
     color: #9d8c47;
 }
-
-#section-2 .box {
-    opacity: 0;
-    transform: translateY(150px);
-    transition: all .5s;
-}
-
 .mini-circle {
     margin: 10px 0;
     height: 100px;
@@ -293,6 +291,9 @@ section div h3 {
     box-shadow: 1px 1px #bcbcbc;
     margin: 10px 0;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .box h3 {
@@ -308,67 +309,18 @@ section div h3 {
     color: #053A4A;
 }
 
-.section-2 .card-container {
+.section-2 {
     padding: 20px 0;
     background: #1718181F;
+}
+
+.section-2 .card-container {
+    padding: 20px 0;
     margin: 20px 5px 10px 5px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
-}
-
-.section-2 .card {
-    padding: 5px;
-    background-color: #053A4A;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    max-width: 370px;
-    overflow: hidden;
-    height: auto;
-
-
-    &.card .title {
-        margin: 5px 0;
-        text-align: center;
-        color: #fff;
-        font-weight: 600;
-    }
-
-    .card-content {
-        color: #fff;
-        width: 100%;
-    }
-
-    .card-content img {
-        border-radius: 5px;
-    }
-
-    .card-content p {
-        text-align: justify;
-        padding: 5px;
-        max-height: 155px;
-        overflow: hidden;
-    }
-
-    .button-box {
-        display: flex;
-        justify-content: center;
-        margin: 10px;
-    }
-
-    .button-box button {
-        border: none;
-        font-weight: bold;
-        background-color: #9D8C47;
-        color: #053A4A;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-
 }
 
 #section-3 {

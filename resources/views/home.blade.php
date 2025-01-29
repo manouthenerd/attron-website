@@ -45,84 +45,32 @@
 
     <section id="our-services" class="section-2">
         <div class="header">
-            <h3>Nos prestations de services</h3>
+            <h3>Nos services phares</h3>
         </div>
 
         <div class="card-container">
-            <div class="card">
-                <p class="title">Formation financière</p>
-                <div class="card-content">
-                    <img src="/assets/img/formation-fn.jpg" alt="image d'illustration" />
-                    <p>
-                        Notre service de formation financière est conçu pour vous aider
-                        à maîtriser les fondamentaux de la gestion financière, tant
-                        personnelle que professionnelle.
-                    </p>
-                </div>
-                <div class="button-box">
-                    <button>Voir en détails</button>
-                </div>
-            </div>
-            <div class="card">
-                <p class="title">Service de comptabilité</p>
-                <div class="card-content">
-                    <img src="./assets/img/finance.jpg" alt="image d'illustration" />
-                    <p>
-                        Notre service de comptabilité offre une gestion complète et
-                        rigoureuse de vos finances, en garantissant la conformité avec
-                        les normes légales et fiscales.
-                    </p>
-                </div>
-                <div class="button-box">
-                    <button>Voir en détails</button>
-                </div>
-            </div>
 
-            <div class="card">
-                <p class="title">Assurance</p>
-                <div class="card-content">
-                    <img src="./assets/img/formation-fn.jpg" alt="image d'illustration" />
-                    <p>
-                        Notre service d’assurance vous aide à protéger ce qui est
-                        important pour vous, qu’il s’agisse de votre vie, de votre
-                        santé, de vos biens ou de votre entreprise
-                    </p>
-                </div>
-                <div class="button-box">
-                    <button>Voir en détails</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <p class="title">Planification Fiscale</p>
-                <div class="card-content">
-                    <img src="./assets/img/formation-fn.jpg" alt="image d'illustration" />
-                    <p>
-                        Notre service de planification fiscale vous aide à optimiser la
-                        gestion de vos obligations fiscales, en minimisant vos impôts
-                        tout en respectant la législation en vigueur
-                    </p>
-                </div>
-                <div class="button-box">
-                    <button>Voir en détails</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <p class="title">Gestion de Portefeuille</p>
-                <div class="card-content">
-                    <img src="./assets/img/formation-fn.jpg" alt="image d'illustration" />
-                    <p>
-                        Notre service de planification fiscale vous aide à optimiser la
-                        gestion de vos obligations fiscales, en minimisant vos impôts
-                        tout en respectant la législation en vigueur
-                    </p>
-                </div>
-                <div class="button-box">
-                    <button>Voir en détails</button>
-                </div>
-            </div>
+            <x-card title="Formation financière" img="formation-fn.jpg">
+                Notre service de formation financière est conçu pour vous aider
+                à maîtriser les fondamentaux de la gestion financière, tant
+                personnelle que professionnelle.
+            </x-card>
+            <x-card title="Service de comptabilité" img="finance.jpg">
+                Notre service de comptabilité offre une gestion complète et
+                rigoureuse de vos finances, en garantissant la conformité avec
+                les normes légales et fiscales.
+            </x-card>
+            <x-card title="Assurance" img="finance.jpg">
+                Notre service d’assurance vous aide à protéger ce qui est
+                important pour vous, qu’il s’agisse de votre vie, de votre
+                santé, de vos biens ou de votre entreprise.
+            </x-card>
         </div>
+
+        <div class="flex justify-center">
+            <a href="/services" class="p-2 rounded-sm bg-darkBlue text-white font-bold" href="/services">Voir tous les services</a>
+        </div>
+
     </section>
 
     <section id="section-3">
@@ -154,7 +102,7 @@
                     <span> Email </span>
                 </div>
                 <div>
-                    <p>example@gmail.com</p>
+                    <p>info@attron-cab.com</p>
                 </div>
             </div>
 
@@ -166,7 +114,8 @@
                     <span> Localisation </span>
                 </div>
                 <div>
-                    <p>Treichville, Rue 21 avenue 17</p>
+                    <p>Treichville, Rue 21 avenue 17 <br>
+                        Avenue Ouezzin Coulibaly</p>
                 </div>
             </div>
 
