@@ -15,6 +15,7 @@
         "vite": "^6.0"
     },
     "dependencies": {
-        "gsap": "^3.12.7"
+        "gsap": "^3.12.7",
+        "nodemailer": "^6.10.0"
     }
 }

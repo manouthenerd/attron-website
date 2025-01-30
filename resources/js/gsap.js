@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
     gsap.registerPlugin(ScrollTrigger);
 
     let buttons = document.querySelectorAll('.small-button')
@@ -6,7 +6,6 @@ window.addEventListener("DOMContentLoaded", () => {
     gsap.from('#circle', {
         scrollTrigger: {
             trigger: '#circle',
-            // markers: true,
             start: '-80% top',
             end: 'top top'
         },
@@ -52,7 +51,6 @@ window.addEventListener("DOMContentLoaded", () => {
     gsap.from('.picture', {
         scrollTrigger: {
             trigger: '.picture',
-            start: '-70% top',
         },
         scale: 0,
         duration: 0.8,

@@ -58,7 +58,7 @@
 
             </div>
 
-            <div class="mt-16">
+            <div class="my-16">
                 <div>
                     <h3
                         class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-darkBlue">
@@ -66,46 +66,27 @@
                         <img class="size-[25]" src="/assets/icons/team.svg" alt="team svg">
                     </h3>
                 </div>
-                <div id="team" class="flex justify-center flex-wrap gap-6">
+                <div id="team" class="flex justify-center flex-wrap gap-[3.5rem]">
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
                         <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4">
+                            Mr X. - Directeur Financier
+                        </p>
                     </div>
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
                         <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4">
+                            Mr Y. - Directeur Général
+                        </p>
                     </div>
                     <div class="size-[200px] rounded-full border border-solid bg-gray-200">
                         <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-16">
-                <div>
-                    <h3
-                        class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-darkBlue">
-                        Nos partenaires
-                        <img class="size-[25]" src="/assets/icons/partners.svg" alt="partners svg">
-                    </h3>
-                </div>
-                <div class="flex justify-center flex-wrap gap-6">
-                    <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
-                    </div>
-                    <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
-                    </div>
-                    <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4"></p>
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4">
+                            Mr Z. - Associé et Manager
+                        </p>
                     </div>
                 </div>
             </div>
-
 
         </div>
 
@@ -114,5 +95,3 @@
 </main>
 
 @include('partials.footer')
-<!-- #053A4A dark blue -->
-<!-- #9D8C47 Dark gold -->

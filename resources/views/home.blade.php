@@ -1,10 +1,10 @@
 @include('partials.header')
 
-<main class="h-full">
+<main class="h-full transition-fade" id="swup">
     <section id="hero-section">
         <div id="circle" class="p-4">
             <h4 class="text-white">
-                Bienvenue chez <span class="font-bold text-darkBlue">ATTRON CAB</span>
+                Bienvenue chez <span id="brandname" class="font-bold text-darkBlue">ATTRON CAB</span>
             </h4>
             <p>
                 Votre cabinet d'expertise dans le domaine de la finance, la comptabilité et de la communication.
@@ -60,15 +60,21 @@
                 rigoureuse de vos finances, en garantissant la conformité avec
                 les normes légales et fiscales.
             </x-card>
-            <x-card title="Assurance" img="finance.jpg">
-                Notre service d’assurance vous aide à protéger ce qui est
-                important pour vous, qu’il s’agisse de votre vie, de votre
-                santé, de vos biens ou de votre entreprise.
+            <x-card title="Ventes et Achates de fournitures de bureau" img="achats.png">
+                Notre service de vente et d’achats de fournitures de bureaux vous permet d’équiper votre entreprise avec
+                des
+                produits de qualité, adaptés à vos besoins professionnels. Que vous cherchiez des fournitures courantes,
+                des
+                équipements spécialisés ou des solutions personnalisées, nous vous proposons une large gamme de produits
+                pour optimiser le fonctionnement de votre environnement de travail, tout en garantissant la
+                compétitivité de
+                vos coûts.
             </x-card>
         </div>
 
         <div class="flex justify-center">
-            <a href="/services" class="p-2 rounded-sm bg-darkBlue text-white font-bold" href="/services">Voir tous les services</a>
+            <a href="/services" class="p-2 rounded-sm bg-darkBlue text-white font-bold" href="/services">Voir tous les
+                services</a>
         </div>
 
     </section>
@@ -124,7 +130,6 @@
         </div>
     </section>
 </main>
-
 
 
 @include('partials.footer')
