@@ -62,29 +62,23 @@
                 <div>
                     <h3
                         class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-darkBlue">
-                        Notre équipe
+                        Les piliers d'ATTRON CAB
                         <img class="size-[25]" src="/assets/icons/team.svg" alt="team svg">
                     </h3>
                 </div>
                 <div id="team" class="flex justify-center flex-wrap gap-[3.5rem]">
-                    <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
+                    <div class="size-[155px] rounded-full border border-solid bg-gray-200">
+                        <img class="picture" src="/assets/img/Mr-Y.jpg" alt="image d'illustration">
                         <p class="text-xs text-darkBlue text-center font-bold mt-4">
-                            Mr X. - Directeur Financier
+                            Mr N'GUESSAN Louis Max - Directeur Financier
                         </p>
                     </div>
-                    <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4">
-                            Mr Y. - Directeur Général
+                    <div class="size-[155px] rounded-full border border-solid bg-gray-200">
+                        <img class="picture" src="/assets/img/Mr-X.jpg" alt="image d'illustration">
+                        <p id="firstUser" class="text-xs text-darkBlue text-center font-bold mt-4">
+                            Mr ATTRON Achille - Directeur Général
                         </p>
-                    </div>
-                    <div class="size-[200px] rounded-full border border-solid bg-gray-200">
-                        <img class="picture" src="/assets/profil.png" alt="image d'illustration">
-                        <p class="text-xs text-darkBlue text-center font-bold mt-4">
-                            Mr Z. - Associé et Manager
-                        </p>
-                    </div>
+                    </div>    
                 </div>
             </div>
 

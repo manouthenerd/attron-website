@@ -4,7 +4,7 @@
     <section id="hero-section">
         <div id="circle" class="p-4">
             <h4 class="text-white">
-                Bienvenue chez <span id="brandname" class="font-bold text-darkBlue">ATTRON CAB</span>
+                Akwaba à <span id="brandname" class="font-bold text-darkBlue">ATTRON CAB</span>
             </h4>
             <p>
                 Votre cabinet d'expertise dans le domaine de la finance, la comptabilité et de la communication.

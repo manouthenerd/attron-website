@@ -385,6 +385,7 @@ h3 {
 }
 
 .card {
+    transition: filter .3s;
     img {
         width: 232px;
         height: 155px;
@@ -392,7 +393,14 @@ h3 {
     }
 }
 
-
+.picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 6px 5px;
+    margin: 2px;
+    }
 
 footer {
     text-wrap: wrap;
