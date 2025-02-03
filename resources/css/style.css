@@ -251,9 +251,10 @@ h3 {
 
 
 #circle {
-    margin: 190px 5px;
+    margin: 40px 5px;
     color: #fff;
     padding: 5px;
+    font-size: 21px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -289,6 +290,13 @@ h3 {
 }
 
 #section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+#section-container {
     display: flex;
     flex-wrap: wrap;
     background-color: #fff;

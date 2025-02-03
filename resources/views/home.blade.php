@@ -16,30 +16,46 @@
     </section>
 
     <section id="section-2">
-        <div class="box">
-            <h3>Rapprochez-vous des experts</h3>
+        <div id="section-container">
+            <div class="box">
+                <h3>Rapprochez-vous des experts</h3>
 
-            <p>
-                L'expertise d'une entreprise en comptabilité se caractérise par des comptables qualifiés, une
-                expérience diversifiée, une formation continue, l'utilisation de logiciels modernes, une
-                solide réputation et une offre de services variée, garantissant des solutions adaptées aux besoins de
-                ses clients.
-            </p>
-            <div id="mini-circle1" class="mini-circle"></div>
+                <p>
+                    L'expertise d'une entreprise en comptabilité se caractérise par des comptables qualifiés, une
+                    expérience diversifiée, une formation continue, l'utilisation de logiciels modernes, une
+                    solide réputation et une offre de services variée, garantissant des solutions adaptées aux besoins
+                    de
+                    ses clients.
+                </p>
+                <div id="mini-circle1" class="mini-circle"></div>
+            </div>
+
+            <div class="box">
+
+                <h3 class="head-2">Des services de qualités et sur mesure.</h3>
+
+                <p>
+                    Nous vous offrons des services de qualité, conçus sur mesure pour répondre à vos besoins
+                    spécifiques.
+                    Chaque prestation est pensée pour vous apporter une solution optimale, alliant expertise, écoute et
+                    personnalisation. Parce que chaque projet est unique, nous nous engageons à vous fournir un
+                    accompagnement sur mesure, afin de garantir votre entière satisfaction.
+                </p>
+
+                <div id="mini-circle2" class="mini-circle"></div>
+            </div>
         </div>
 
-        <div class="box">
-
-            <h3 class="head-2">Des services de qualités et sur mesure.</h3>
-
-            <p>
-                Nous vous offrons des services de qualité, conçus sur mesure pour répondre à vos besoins spécifiques.
-                Chaque prestation est pensée pour vous apporter une solution optimale, alliant expertise, écoute et
-                personnalisation. Parce que chaque projet est unique, nous nous engageons à vous fournir un
-                accompagnement sur mesure, afin de garantir votre entière satisfaction.
+        <div class="py-[10px] px-[60px] min-my-4">
+            <h3 class="text-center font-bold text-darkBlue my-2">La vision qui nous alimente</h3>
+            <p class="leading-[30px] bg-kaki p-2">
+                Notre vision est de devenir le leader incontournable dans le domaine de la comptabilité en offrant des
+                services sur mesure, axés sur l'excellence, l'innovation et la performance. Nous aspirons à être le
+                conseiller stratégique privilégié de nos clients, en les accompagnant dans l’optimisation de leur
+                gestion financière, la conformité fiscale et la prise de décisions éclairées, tout en garantissant une
+                transparence totale et un haut niveau de fiabilité. Notre engagement : offrir des solutions comptables
+                adaptées aux défis contemporains et renforcer la pérennité des entreprises, quelle que soit leur taille.
             </p>
-
-            <div id="mini-circle2" class="mini-circle"></div>
         </div>
     </section>
 
@@ -77,6 +93,128 @@
                 services</a>
         </div>
 
+    </section>
+
+    <section class="w-full flex flex-col justify-center bg-[#e2e3e3]">
+        <div>
+            <h3 class="text-center font-bold text-darkBlue my-2">
+                Demander un devis ou une consultation
+            </h3>
+        </div>
+        <div class="w-full">
+            <div class="max-w-[500px] my-0 mx-auto">
+                <form method="post" action="/contact" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    @csrf
+                    <div class="my-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                            Forme juridique
+                        </label>
+                        
+                        <p class="flex flex-wrap gap-2 justify-between my-2">
+                            <label for="sarl">
+                                SARL
+                                <input type="radio" name="company" id="sarl">
+                            </label>
+                            <label for="sas">
+                                SAS/SA
+                                <input type="radio" name="company" id="sas">
+                            </label>
+                            <label for="other">
+                                Autre
+                                <input type="radio" name="company" id="other">
+                            </label>
+                        </p>
+
+                        <p class="flex flex-wrap gap-2 justify-between my-2">
+                            <label for="individual">
+                                Entreprise individuelle
+                                <input type="radio" name="company" id="individual">
+                            </label>
+                            
+                            <label for="association">
+                                Entreprise individuelle
+                                <input type="radio" name="company" id="association">
+                            </label>
+                        </p>
+                    </div>
+
+                    <div class="my-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="activity">
+                            Secteur d'activité
+                        </label>
+                        <input
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            id="activity" required name="activity" type="text">
+                    </div>
+
+                    <div class="my-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                            Nom et prénoms
+                        </label>
+                        <input
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            id="username" required name="username" type="text">
+                    </div>
+
+                    <div class="my-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            id="email" required name="email" type="email">
+                    </div>
+
+                    <div class="my-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="contact">
+                            Téléphone
+                        </label>
+                        <input
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            id="contact" required name="contact" type="text">
+                    </div>
+
+                    <div class="my-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                            Nombre de salarié(s)
+                        </label>
+                        
+                        <p class="flex flex-wrap gap-2 justify-between my-2">
+                            <label for="first">
+                                Pas de salarié
+                                <input type="radio" value="pas de salarié" name="workers" id="first">
+                            </label>
+                            <label for="second">
+                                10 à 50 salariés
+                                <input type="radio" value="10 à 50 salariés" name="workers" id="second">
+                            </label>
+                            <label for="last">
+                                Plus de 50 salariés
+                                <input type="radio" value="plus de 50 salariés" name="workers" id="last">
+                            </label>
+                        </p>
+                    </div>
+
+                    <div class="my-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                            Objet de votre demande
+                        </label>
+                        <textarea
+                            class="h-[150px] shadow border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            id="message" name="message" required placeholder="Veuillez exprimer votre demande ici..."></textarea>
+
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <button
+                            class="bg-gray-500 hover:bg-[#053A4A] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="submit">
+                            Envoyer
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 
     <section id="section-3">

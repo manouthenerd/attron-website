@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
 
 burgerMenuButton.addEventListener('click', () => {
     gsap.to(mobileNavbar, {
-        height: 200,
+        height: 250,
         duration: 0.2
     })
     gsap.to(defaultNavbar, {

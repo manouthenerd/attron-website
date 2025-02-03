@@ -2,12 +2,29 @@
 
 <main class="h-full mt-8 min-[700px]:mx-16 bg-[#bcbc] p-2 rounded-sm">
     <h3 class="text-center mb-8 font-bold text-[25px] text-darkBlue">
-        À propos de ATTRON CAB
+        Présentation de l'entreprise
     </h3>
 
     <section class="grid place-content-center gap-4 mt-4">
+
         <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
-            ATTRON CAB est une société basée en Côte d'Ivoire ayant pour activités principales:
+
+            <p class="p-2 space-y-2">
+                <span class="font-bold text-darkBlue">ATTRON CAB</span> est une société de comptabilité et de conseil financier dédiée aux
+                entrepreneurs,
+                aux PME et aux grandes entreprises. Notre mission est d’accompagner nos clients dans la gestion de leurs
+                finances en leur offrant des services personnalisés, modernes et adaptés à leurs besoins
+            </p>
+
+            <p class="p-2 space-y-2">
+                Nous nous engageons à fournir des solutions comptables efficaces, en combinant expertise humaine et
+                technologies avancées, afin d’optimiser la gestion financière de nos clients et de garantir leur
+                conformité fiscale et réglementaire.
+            </p>
+        </div>
+
+        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
+            <h4 class="text-center font-bold text-darkBlue">1. Nos services</h4>
             <ul class="list-[square] list-inside space-y-4 mt-4">
                 <li>la comptabilité, la fiscalité;</li>
                 <li>la formation continue, technique, classique et diverse en tout domaine;</li>
@@ -23,8 +40,32 @@
             </ul>
         </div>
 
-        <div>
+        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
+            <h4 class="text-center font-bold text-darkBlue">2. Pourquoi nous choisir ?</h4>
+            <ul class="list-[square] list-inside space-y-4 mt-4">
+                <li><strong>Un service personnalisé</strong> : Nous nous adaptons aux besoins spécifiques de chaque client.</li>
+                <li><strong>Une approche moderne</strong> : Nous utilisons des outils digitaux performants pour une gestion comptable
+                    optimisée.</li>
+                <li><strong>Une expertise reconnue</strong> : Nos professionnels sont qualifiés et suivent régulièrement des formations
+                    pour être à jour sur les réglementations.</li>
+                <li><strong>Un accompagnement de A à Z</strong> : De la création d’entreprise à la gestion quotidienne, nous sommes à vos
+                    côtés.</li>
+            </ul>
+        </div>
 
+        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
+            <h4 class="text-center font-bold text-darkBlue">3. Nos valeurs</h4>
+            <p>Chez <strong class="text-darkBlue">ATTRON CAB</strong>, nous sommes guidés par des valeurs fondamentales qui font notre
+                différence :</p>
+            <ul class="list-[square] list-inside space-y-4 mt-4">
+                <li>✅ <strong>Transparence</strong> : Nous garantissons une communication claire et sans surprise.</li>
+                <li>✅ <strong>Professionnalisme</strong> : Nous assurons un suivi rigoureux et conforme aux normes comptables.</li>
+                <li>✅ <strong>Innovation</strong> : Nous intégrons des solutions numériques pour une gestion plus efficace et intuitive.</li>
+                <li>✅ <strong>Accompagnement humain</strong> : Parce que derrière chaque chiffre, il y a une entreprise et des ambitions.</li>
+            </ul>
+        </div>
+
+        <div>
             <div>
                 <div>
                     <h3
@@ -78,7 +119,7 @@
                         <p id="firstUser" class="text-xs text-darkBlue text-center font-bold mt-4">
                             Mr ATTRON Achille - Directeur Général
                         </p>
-                    </div>    
+                    </div>
                 </div>
             </div>
 

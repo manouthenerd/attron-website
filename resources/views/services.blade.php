@@ -4,7 +4,7 @@
 <main class="grid place-content-center p-2">
     <div class="text-center my-[20px]">
         <h3 class="text-darkBlue">
-            Nos domaines d'interventions sont les suivantes:
+            Nos domaines d'interventions sont les suivants:
         </h3>
     </div>
 
