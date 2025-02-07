@@ -107,7 +107,7 @@
                         <img class="size-[25]" src="/assets/icons/team.svg" alt="team svg">
                     </h3>
                 </div>
-                <div id="team" class="flex justify-center flex-wrap gap-[3.5rem]">
+                <div id="team" class="flex justify-center flex-wrap gap-[3.5rem] ">
                     
                     <div class="size-[155px] rounded-full border border-solid bg-gray-200">
                         <img class="picture" src="/assets/img/Mr-X.jpg" alt="image d'illustration">
