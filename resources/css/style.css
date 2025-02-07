@@ -410,9 +410,14 @@ h3 {
     margin: 2px;
     }
 
+    .error {
+        color: rgb(241, 25, 25);
+        font-size: 14px;
+    }
+
 footer {
     text-wrap: wrap;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
 }
 

@@ -1,6 +1,7 @@
 import "./map";
 import "./about";
 import "./gsap";
+import "./form-submit";
 
 let burgerMenuButton = document.querySelector(".burger-menu");
 let mobileNavbar = document.querySelector(".mobile-navbar");

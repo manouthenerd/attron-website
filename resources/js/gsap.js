@@ -1,7 +1,19 @@
 window.addEventListener("load", () => {
-    gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
     let buttons = document.querySelectorAll('.small-button')
+    const bounceArrow = document.querySelector('#bounce-arrow')
+    const bounceContainer = document.querySelector('#bounce-container')
+
+    window.addEventListener('scroll', () => {
+        window.pageYOffset > 0 ? bounceContainer.classList.remove('opacity-0') : bounceContainer.classList.add('opacity-0')
+    })
+
+    bounceArrow.addEventListener('click', () => {
+        window.scrollTo({top: 0, behavior: 'smooth'})
+        gsap.to(window, { duration: 0.5, scrollTo: { y: 0 }});
+    })
+    
 
     gsap.from('#circle', {
         scrollTrigger: {

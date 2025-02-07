@@ -46,8 +46,8 @@
             </div>
         </div>
 
-        <div class="py-[10px] px-[60px] min-my-4">
-            <h3 class="text-center font-bold text-darkBlue my-2">La vision qui nous alimente</h3>
+        <div class="py-[10px] [@media(min-width:820px)]:px-[60px] min-my-4">
+            <h3 class="text-center font-bold text-darkBlue my-2">La vision qui nous alimente </h3>
             <p class="leading-[30px] bg-kaki p-2">
                 Notre vision est de devenir le leader incontournable dans le domaine de la comptabilité en offrant des
                 services sur mesure, axés sur l'excellence, l'innovation et la performance. Nous aspirons à être le
@@ -88,54 +88,51 @@
             </x-card>
         </div>
 
-        <div class="flex justify-center">
+        <div id="services" class="flex justify-center">
             <a href="/services" class="p-2 rounded-sm bg-darkBlue text-white font-bold" href="/services">Voir tous les
                 services</a>
         </div>
 
     </section>
 
-    <section class="w-full flex flex-col justify-center bg-[#e2e3e3]">
+    <section id="text" class="w-full flex flex-col justify-center bg-[#e2e3e3]">
+
         <div>
             <h3 class="text-center font-bold text-darkBlue my-2">
                 Demander un devis ou une consultation
             </h3>
         </div>
-        <div class="w-full">
+        <div class="w-full" id="form">
             <div class="max-w-[500px] my-0 mx-auto">
-                <form method="post" action="/contact" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <form method="POST" action="/" id="estimation-form"
+                    class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <div id="estimation-message" class="bg-[#BDCEBD] p-4 rounded-sm my-0 mx-auto hidden">
+                        Votre message a été envoyé avec succès.
+                    </div>
                     @csrf
                     <div class="my-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                             Forme juridique
                         </label>
-                        
-                        <p class="flex flex-wrap gap-2 justify-between my-2">
-                            <label for="sarl">
-                                SARL
-                                <input type="radio" name="company" id="sarl">
-                            </label>
-                            <label for="sas">
-                                SAS/SA
-                                <input type="radio" name="company" id="sas">
-                            </label>
-                            <label for="other">
-                                Autre
-                                <input type="radio" name="company" id="other">
-                            </label>
-                        </p>
 
-                        <p class="flex flex-wrap gap-2 justify-between my-2">
-                            <label for="individual">
-                                Entreprise individuelle
-                                <input type="radio" name="company" id="individual">
-                            </label>
-                            
-                            <label for="association">
-                                Entreprise individuelle
-                                <input type="radio" name="company" id="association">
-                            </label>
-                        </p>
+                        <select name="company" id="company"
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 bg-white leading-tight focus:outline-none focus:shadow-outline">
+                            <option value="SAS">SAS</option>
+                            <option value="SARL">SARL</option>
+                            <option value="SASU">SASU</option>
+                            <option value="EURL">EURL</option>
+                            <option value="SCI">SCI</option>
+                            <option value="SNC">SNC</option>
+                            <option value="ONG">ONG</option>
+                            <option value="Société anonyme" selected>Société anonyme</option>
+                            <option value="Association">Association</option>
+                            <option value="Entreprise individuelle">Entreprise individuelle</option>
+                        </select>
+
+
+                        @error('company')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="my-6">
@@ -144,69 +141,82 @@
                         </label>
                         <input
                             class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="activity" required name="activity" type="text">
+                            id="activity" value="{{ old('activity') }}" required name="activity" type="text">
+                        @error('activity')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="my-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
-                            Nom et prénoms
+                            Raison Sociale
                         </label>
                         <input
                             class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="username" required name="username" type="text">
+                            id="name" value="{{ old('name') }}" required name="name" type="text">
+                        @error('name')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="my-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
                             Email
                         </label>
-                        <input
-                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="email" required name="email" type="email">
+                        <input id="email" value="{{ old('email') }}" required name="email" type="email"
+                            placeholder="example@gmail.com"
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
+                        @error('email')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="my-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="contact">
                             Téléphone
                         </label>
-                        <input
-                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="contact" required name="contact" type="text">
+                        <input id="contact" value="{{ old('contact') }}" required name="contact" type="text"
+                            placeholder="+2250102030405"
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
+                        @error('contact')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="my-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="workers">
                             Nombre de salarié(s)
                         </label>
-                        
-                        <p class="flex flex-wrap gap-2 justify-between my-2">
-                            <label for="first">
-                                Pas de salarié
-                                <input type="radio" value="pas de salarié" name="workers" id="first">
-                            </label>
-                            <label for="second">
-                                10 à 50 salariés
-                                <input type="radio" value="10 à 50 salariés" name="workers" id="second">
-                            </label>
-                            <label for="last">
-                                Plus de 50 salariés
-                                <input type="radio" value="plus de 50 salariés" name="workers" id="last">
-                            </label>
-                        </p>
+
+                        <select name="workers" id="workers"
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 bg-white leading-tight focus:outline-none focus:shadow-outline">
+                            <option value="Moins de 10 salariés">Moins de 10 salariés</option>
+                            <option value="10 à 50 salariés">10 à 50 salariés</option>
+                            <option value="Plus de 50 salariés">Plus de 50 salariés</option>
+                        </select>
+
+
+                        @error('workers')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="my-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
-                            Objet de votre demande
+                            Votre demande en quelques lignes
                         </label>
                         <textarea
                             class="h-[150px] shadow border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="message" name="message" required placeholder="Veuillez exprimer votre demande ici..."></textarea>
+                            id="message" value="{{ old('message') }}" name="message" required
+                            placeholder="Veuillez exprimer votre demande ici..."></textarea>
+                        @error('message')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
 
                     </div>
 
                     <div class="flex items-center justify-between">
-                        <button
+                        <button id="estimationButton"
                             class="bg-gray-500 hover:bg-[#053A4A] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                             type="submit">
                             Envoyer
@@ -216,10 +226,9 @@
             </div>
         </div>
     </section>
-
-    <section id="section-3">
+    <section id="section-3" class="bg-[#d9d0c9]">
         <div class="header">
-            <h3 id="contact">Nous contacter</h3>
+            <h3 id="contact" class="m-0">Nous contacter</h3>
         </div>
 
         <div class="card-container">
@@ -229,7 +238,7 @@
                     <span>
                         <img src="/assets/icons/contact.svg" alt="contact icon" />
                     </span>
-                    <span> Contact </span>
+                    <span><a href="tel:+2250708116811">Contact</a></span>
                 </div>
                 <div>
                     <p>+225 07 08 11 68 11</p>
@@ -241,9 +250,11 @@
             <div class="card-2">
                 <div class="header">
                     <span>
-                        <img src="/assets/icons/email.svg" alt="contact icon" />
+                        <a href="mailto:info@attron-cab.com" class="flex items-center gap-1">
+                            <img src="/assets/icons/email.svg" alt="contact icon" />
+                            Email
+                        </a>
                     </span>
-                    <span> Email </span>
                 </div>
                 <div>
                     <p>info@attron-cab.com</p>
@@ -267,9 +278,8 @@
 
         </div>
     </section>
+    
 </main>
-
-
 @include('partials.footer')
 
 <!-- #053A4A dark blue -->

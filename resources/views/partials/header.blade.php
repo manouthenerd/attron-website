@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="description" content="Obtez pour des services de comptabilité, de finance et de fiscalité sur mesure avec des experts chez ATTRON CAB."> 
     <title>ATTRON CAB</title>
 
     @vite('resources/css/style.css')
@@ -16,6 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -35,6 +38,12 @@
             <span></span>
             <span></span>
         </p>
+    </div>
+
+    <div id="bounce-container" class="fixed right-[8px] bottom-[90px] z-[99999] h-[50px] w-[50px] max-[480px]:h-[35px] max-[480px]:w-[35px] rounded-full bg-darkBlue text-center font-bold text-white flex justify-center items-center opacity-0">
+        <button id="bounce-arrow">
+            <img src="/assets/arrow.svg" alt="icon fléchée" class="animate-bounce" class="max-[480px]:size-[30px]">
+        </button>
     </div>
 
     @include('components.navbar')
