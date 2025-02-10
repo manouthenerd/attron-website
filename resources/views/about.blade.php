@@ -76,15 +76,15 @@
                 </div>
                 <div class="grid gap-[5rem]">
                     <div class="flex justify-center gap-[5.5rem] flex-wrap">
-                        <div class="size-[200px] rounded-full border border-solid bg-gray-200">
+                        <div class="size-[200px] rounded-full bg-gray-200">
                             <img class="image" src="" alt="image d'illustration">
                             <p class="title text-xs text-darkBlue text-center font-bold mt-4"></p>
                         </div>
-                        <div class="size-[200px] rounded-full border border-solid bg-gray-200">
+                        <div class="size-[200px] rounded-full bg-gray-200">
                             <img class="image" src="" alt="image d'illustration">
                             <p class="title text-xs text-darkBlue text-center font-bold mt-4"></p>
                         </div>
-                        <div class="size-[200px] rounded-full border border-solid bg-gray-200">
+                        <div class="size-[200px] rounded-full bg-gray-200">
                             <img class="image" src="" alt="image d'illustration">
                             <p class="title text-xs text-darkBlue text-center font-bold mt-4"></p>
                         </div>
@@ -109,14 +109,14 @@
                 </div>
                 <div id="team" class="flex justify-center flex-wrap gap-[3.5rem] ">
                     
-                    <div class="size-[155px] rounded-full border border-solid bg-gray-200">
+                    <div class="size-[155px] rounded-full  bg-gray-200">
                         <img class="picture" src="/assets/img/Mr-X.jpg" alt="image d'illustration">
                         <p id="firstUser" class="text-xs text-darkBlue text-center font-bold mt-4">
                             Mr ATTRON Achille - Directeur Général
                         </p>
                     </div>
 
-                    <div class="size-[155px] rounded-full border border-solid bg-gray-200">
+                    <div class="size-[155px] rounded-full  bg-gray-200">
                         <img class="picture" src="/assets/img/Mr-Y.jpg" alt="image d'illustration">
                         <p class="text-xs text-darkBlue text-center font-bold mt-4">
                             Mr N'GUESSAN Louis Max - Directeur Financier

@@ -48,7 +48,7 @@
 
         <div class="py-[10px] [@media(min-width:820px)]:px-[60px] min-my-4">
             <h3 class="text-center font-bold text-darkBlue my-2">La vision qui nous alimente </h3>
-            <p class="leading-[30px] bg-kaki p-2">
+            <p class="leading-[30px] bg-[#9d8c477d] p-2">
                 Notre vision est de devenir le leader incontournable dans le domaine de la comptabilité en offrant des
                 services sur mesure, axés sur l'excellence, l'innovation et la performance. Nous aspirons à être le
                 conseiller stratégique privilégié de nos clients, en les accompagnant dans l’optimisation de leur
@@ -89,7 +89,7 @@
         </div>
 
         <div id="services" class="flex justify-center">
-            <a href="/services" class="p-2 rounded-sm bg-darkBlue text-white font-bold" href="/services">Voir tous les
+            <a href="/services" class="p-2 rounded-sm [#053A4A] text-white font-bold" href="/services">Voir tous les
                 services</a>
         </div>
 
