@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="/css/style.css">
     <meta name="description" content="Obtez pour des services de comptabilité, de finance et de fiscalité sur mesure avec des experts chez ATTRON CAB."> 
     <title>ATTRON CAB</title>
-
-    @vite('resources/css/style.css')
 
     <link rel="shortcut icon" href="/assets/logo-attron.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -19,8 +18,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
-    
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite('resources/js/app.js')
 
 </head>
 
