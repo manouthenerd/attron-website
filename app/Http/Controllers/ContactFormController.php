@@ -4,11 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\sendContactFormRequest;
 use App\Mail\SendContact;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends Controller
 {
-    public function __invoke(sendContactFormRequest $request) 
+    public function __invoke(Request $request) 
     {
         $sender = $request->validated();
 

@@ -1,13 +1,14 @@
 @include('partials.header')
 
-<main class="h-full transition-fade" id="swup">
+<main class="h-full transition-fade">
     <section id="hero-section">
         <div id="circle" class="p-4">
             <h4 class="text-white">
                 Akwaba à <span id="brandname" class="font-bold text-darkBlue">ATTRON CAB</span>
             </h4>
             <p>
-                Votre cabinet d'expertise dans le domaine de la finance, la comptabilité et de la communication.
+                Votre cabinet d'expertise en audit, en finance-compta et marketing et
+                communication.
             </p>
             <a id="about-link" href="/about" class="mt-8 rounded-md p-2 border-none">
                 En savoir +
@@ -66,6 +67,17 @@
 
         <div class="card-container">
 
+
+            <x-card title="Service d'Audit" img="audit.jpg">
+                Notre service d'audit vise à offrir à nos clients une évaluation rigoureuse, objective et transparente
+                de
+                leurs états financiers, dans le respect des normes et régulations en vigueur. Forts de notre expertise
+                et de
+                notre expérience, nous accompagnons les entreprises de toutes tailles dans la vérification et l’analyse
+                de
+                la conformité de leurs processus comptables et financiers.
+            </x-card>
+
             <x-card title="Formation financière" img="formation-fn.jpg">
                 Notre service de formation financière est conçu pour vous aider
                 à maîtriser les fondamentaux de la gestion financière, tant
@@ -76,16 +88,7 @@
                 rigoureuse de vos finances, en garantissant la conformité avec
                 les normes légales et fiscales.
             </x-card>
-            <x-card title="Ventes et Achates de fournitures de bureau" img="achats.png">
-                Notre service de vente et d’achats de fournitures de bureaux vous permet d’équiper votre entreprise avec
-                des
-                produits de qualité, adaptés à vos besoins professionnels. Que vous cherchiez des fournitures courantes,
-                des
-                équipements spécialisés ou des solutions personnalisées, nous vous proposons une large gamme de produits
-                pour optimiser le fonctionnement de votre environnement de travail, tout en garantissant la
-                compétitivité de
-                vos coûts.
-            </x-card>
+
         </div>
 
         <div id="services" class="flex justify-center">
@@ -139,9 +142,9 @@
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="activity">
                             Secteur d'activité
                         </label>
-                        <input
-                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="activity" value="{{ old('activity') }}" required name="activity" type="text">
+                        <input id="activity" value="{{ old('activity') }}" required name="activity" type="text"
+                            placeholder="Entrer le domaine d'activité ici..."
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
                         @error('activity')
                             <p class="error">{{ $message }}</p>
                         @enderror
@@ -151,10 +154,21 @@
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                             Raison Sociale
                         </label>
-                        <input
-                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="name" value="{{ old('name') }}" required name="name" type="text">
+                        <input id="name" value="{{ old('name') }}" required name="name" type="text"
+                            placeholder="Entrer la raison sociale ici..."
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
                         @error('name')
+                            <p class="error">{{ $message }}</p>
+                        @enderror
+                    </div>
+
+                    <div class="my-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                            Date de création
+                        </label>
+                        <input id="date" value="{{ old('date') }}" required name="date" type="date"
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
+                        @error('date')
                             <p class="error">{{ $message }}</p>
                         @enderror
                     </div>
@@ -188,7 +202,7 @@
                             Nombre de salarié(s)
                         </label>
 
-                        <select name="workers" id="workers"
+                        <select name="workers" id="workers" required
                             class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 bg-white leading-tight focus:outline-none focus:shadow-outline">
                             <option value="Moins de 10 salariés">Moins de 10 salariés</option>
                             <option value="10 à 50 salariés">10 à 50 salariés</option>
@@ -205,9 +219,8 @@
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
                             Votre demande en quelques lignes
                         </label>
-                        <textarea
+                        <textarea id="message" value="{{ old('message') }}" name="message" required
                             class="h-[150px] shadow border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                            id="message" value="{{ old('message') }}" name="message" required
                             placeholder="Veuillez exprimer votre demande ici..."></textarea>
                         @error('message')
                             <p class="error">{{ $message }}</p>
@@ -278,7 +291,7 @@
 
         </div>
     </section>
-    
+
 </main>
 @include('partials.footer')
 

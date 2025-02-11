@@ -9,10 +9,12 @@
     </div>
 
     <section id="services-section" class="mt-[20px] flex justify-center flex-wrap gap-[6.5rem]">
-        <x-card title="Formation financière" img="formation-fn.jpg">
-            Notre service de planification fiscale vous aide à optimiser la
-            gestion de vos obligations fiscales, en minimisant vos impôts
-            tout en respectant la législation en vigueur
+
+        <x-card title="Service d'Audit" img="audit.jpg">
+            Notre service d'audit vise à offrir à nos clients une évaluation rigoureuse, objective et transparente de
+            leurs états financiers, dans le respect des normes et régulations en vigueur. Forts de notre expertise et de
+            notre expérience, nous accompagnons les entreprises de toutes tailles dans la vérification et l’analyse de
+            la conformité de leurs processus comptables et financiers.
         </x-card>
 
         <x-card title="Service de comptabilité" img="finance.jpg">
@@ -32,6 +34,12 @@
             maximisation de vos opportunités financières. Que vous soyez un particulier ou une entreprise, nous vous
             aidons à optimiser vos investissements, à gérer vos impôts et à sécuriser votre avenir financier grâce à des
             solutions personnalisées et adaptées à votre situation
+        </x-card>
+
+        <x-card title="Formation financière" img="formation-fn.jpg">
+            Notre service de planification fiscale vous aide à optimiser la
+            gestion de vos obligations fiscales, en minimisant vos impôts
+            tout en respectant la législation en vigueur
         </x-card>
 
         <x-card title="Création d'entreprises" img="creation-entreprise.jpg">

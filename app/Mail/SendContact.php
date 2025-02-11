@@ -28,7 +28,7 @@ class SendContact extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Prise de rendez-vous',
+            subject: $this->sender['subject'] ?? 'Prise de contact',
         );
     }
 

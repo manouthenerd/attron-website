@@ -32,6 +32,7 @@ class sendContactFormRequest extends FormRequest
             'username' => ['required'],
             'contact'  => ['required', 'digits_between:10,14'],
             'email'    => ['email', 'required'],
+            'subject'  => ['string', 'required'],
             'message'  => ['required', 'min:20']
         ];
     }
@@ -41,11 +42,19 @@ class sendContactFormRequest extends FormRequest
         return [
             'username.required'         => 'Ce champs est obligatoire',
             'contact.required'          => 'Ce champs est obligatoire',
+            'subject.required'          => 'Ce champs est obligatoire',
             'email.required'            => 'Ce champs est obligatoire',
             'message.required'          => 'Ce champs est obligatoire',
             'message.required'          => 'Le message doit contenir au moins :min caractères',
             'contact.digits_between'    => 'Le téléphone doit contenir au moins :min chiffres',
             'email.email'               => 'Veuillez saisir une adresse email valide.'
+        ];
+    }
+
+    public function attributes()
+    {
+        return [
+            'subject' => 'Objet'
         ];
     }
 }

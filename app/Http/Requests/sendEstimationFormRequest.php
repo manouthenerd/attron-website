@@ -32,13 +32,13 @@ class sendEstimationFormRequest extends FormRequest
     {
         return [
             "company"       => ['required'],
-            "other_company" => ['string', 'required_if:company,other'],
             "activity"      => ['required', 'string'],
             "name"          => ['required', 'string'],
-            "contact"       => ['required', 'numeric', 'min:8'],
+            "contact"       => ['required', 'min:8'],
             "workers"       => ['required'],
             "message"       => ['required', 'min:20'],
-            'email'         => ['email']
+            'email'         => ['email'],
+            'date'          => ['date', 'required']
         ];
     }
 
@@ -50,7 +50,6 @@ class sendEstimationFormRequest extends FormRequest
             'other_company.string'          => 'Le contenu doit être une chaîne de caractère.',
             'name.required'                 => 'Ce champ est obligatoire',
             'contact.required'              => 'Ce champ est obligatoire',
-            'contact.numeric'               => 'Les données attendues doivent être de type numérique',
             'contact.min'                   => 'Le contact doit être d\'au moins :min caractères',
             'workers.required'              => 'Ce champ est obligatoire',
             'message.required'              => 'Ce champ est obligatoire',

@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+window.addEventListener("load", (e) => {
     gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
     let buttons = document.querySelectorAll('.small-button')
@@ -15,34 +15,33 @@ window.addEventListener("load", () => {
     })
     
 
-    gsap.from('#circle', {
-        scrollTrigger: {
-            trigger: '#circle',
-            start: '-80% top',
-            end: 'top top'
-        },
-        
-        y: 50,
-        opacity: 0
-    })
-
-    gsap.from('.box', {
-        scrollTrigger: {
-            trigger: '.box',
-            start: '-40% top',
-        },
-
-        xPercent: 100,
-        opacity: 0,
-        stagger: 0.5,
-        duration: 1.8
-
-    })
+        gsap.from('#circle', {
+            scrollTrigger: {
+                trigger: '#circle',
+                
+            },
+            
+            y: 50,
+            opacity: 0
+        })
+    
+        gsap.from('.box', {
+            scrollTrigger: {
+                trigger: '.box',
+            },
+    
+            xPercent: 100,
+            opacity: 0,
+            stagger: 0.5,
+            duration: 1.8
+    
+        })
+    
+    
 
     gsap.from('.card', {
         scrollTrigger: {
             trigger: '.card',
-            start: '-70% top',
         },
         opacity: 0,
         rotationY: 30,

@@ -10,7 +10,8 @@
         <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
 
             <p class="p-2 space-y-2">
-                <span class="font-bold text-darkBlue">ATTRON CAB</span> est une société de comptabilité et de conseil financier dédiée aux
+                <span class="font-bold text-darkBlue">ATTRON CAB</span> est une société de comptabilité, d'audit, de
+                marketing, de communication et de conseil financier dédiée aux
                 entrepreneurs,
                 aux PME et aux grandes entreprises. Notre mission est d’accompagner nos clients dans la gestion de leurs
                 finances en leur offrant des services personnalisés, modernes et adaptés à leurs besoins
@@ -26,7 +27,7 @@
         <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
             <h4 class="text-center font-bold text-darkBlue">1. Nos services</h4>
             <ul class="list-[square] list-inside space-y-4 mt-4">
-                <li>la comptabilité, la fiscalité;</li>
+                <li>L'audit, la comptabilité, la finance et la fiscalité;</li>
                 <li>la formation continue, technique, classique et diverse en tout domaine;</li>
                 <li>le montage de tout dossier de financement, les appels d'offres;</li>
                 <li>la création de société (du registre de commerce à la DPE et rattachement à la CNPS;)</li>
@@ -43,25 +44,36 @@
         <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
             <h4 class="text-center font-bold text-darkBlue">2. Pourquoi nous choisir ?</h4>
             <ul class="list-[square] list-inside space-y-4 mt-4">
-                <li><strong>Un service personnalisé</strong> : Nous nous adaptons aux besoins spécifiques de chaque client.</li>
-                <li><strong>Une approche moderne</strong> : Nous utilisons des outils digitaux performants pour une gestion comptable
+                <li><strong>Un service personnalisé</strong> : Nous nous adaptons aux besoins spécifiques de chaque
+                    client.</li>
+                <li><strong>Une approche moderne</strong> : Nous utilisons des outils digitaux performants pour une
+                    gestion comptable
                     optimisée.</li>
-                <li><strong>Une expertise reconnue</strong> : Nos professionnels sont qualifiés et suivent régulièrement des formations
+                <li><strong>Une expertise reconnue</strong> : Nos professionnels sont qualifiés et suivent régulièrement
+                    des formations
                     pour être à jour sur les réglementations.</li>
-                <li><strong>Un accompagnement de A à Z</strong> : De la création d’entreprise à la gestion quotidienne, nous sommes à vos
+                <li><strong>Un accompagnement de A à Z</strong> : De la création d’entreprise à la gestion quotidienne,
+                    nous sommes à vos
                     côtés.</li>
+                <li><strong>Célérité dans le traitement des dossiers</strong>
+                    : Nous traitons vos dossiers dans les plus brefs délais afin de vous garantir un service de qualité.
+                </li>
             </ul>
         </div>
 
         <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
             <h4 class="text-center font-bold text-darkBlue">3. Nos valeurs</h4>
-            <p>Chez <strong class="text-darkBlue">ATTRON CAB</strong>, nous sommes guidés par des valeurs fondamentales qui font notre
+            <p>Chez <strong class="text-darkBlue">ATTRON CAB</strong>, nous sommes guidés par des valeurs fondamentales
+                qui font notre
                 différence :</p>
             <ul class="list-[square] list-inside space-y-4 mt-4">
                 <li>✅ <strong>Transparence</strong> : Nous garantissons une communication claire et sans surprise.</li>
-                <li>✅ <strong>Professionnalisme</strong> : Nous assurons un suivi rigoureux et conforme aux normes comptables.</li>
-                <li>✅ <strong>Innovation</strong> : Nous intégrons des solutions numériques pour une gestion plus efficace et intuitive.</li>
-                <li>✅ <strong>Accompagnement humain</strong> : Parce que derrière chaque chiffre, il y a une entreprise et des ambitions.</li>
+                <li>✅ <strong>Professionnalisme</strong> : Nous assurons un suivi rigoureux et conforme aux normes
+                    comptables.</li>
+                <li>✅ <strong>Innovation</strong> : Nous intégrons des solutions numériques pour une gestion plus
+                    efficace et intuitive.</li>
+                <li>✅ <strong>Accompagnement humain</strong> : Parce que derrière chaque chiffre, il y a une entreprise
+                    et des ambitions.</li>
             </ul>
         </div>
 
@@ -108,7 +120,7 @@
                     </h3>
                 </div>
                 <div id="team" class="flex justify-center flex-wrap gap-[3.5rem] ">
-                    
+
                     <div class="size-[155px] rounded-full  bg-gray-200">
                         <img class="picture" src="/assets/img/Mr-X.jpg" alt="image d'illustration">
                         <p id="firstUser" class="text-xs text-darkBlue text-center font-bold mt-4">
