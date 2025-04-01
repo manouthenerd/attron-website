@@ -495,3 +495,13 @@ select,
 textarea {
     border: 1px solid #053A4A;
 }
+
+@keyframes slide1 {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.partners1 {
+    animation: slide1 12s infinite linear;
+}

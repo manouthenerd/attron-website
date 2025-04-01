@@ -239,6 +239,42 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div>
+            <h3 class="text-center font-bold text-[#053A4A] my-2">
+                Nos partenaires
+            </h3>
+        </div>
+
+        <div class="grid">
+            <div class="flex gap-2">
+                <ul class="partners1 flex gap-2 items-center">
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_1.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_2.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px] mr-[25px]"><img class="object-contain" src="/assets/partners/partner_8.png" alt="partners logo"></li>
+                    <li class="mx-[20px] content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_3.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_4.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_5.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_6.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_7.png" alt="partners logo"></li>
+                </ul>
+                <ul class="partners1 flex gap-2 items-center">
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_1.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_2.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px] mr-[25px]"><img class="object-contain" src="/assets/partners/partner_8.png" alt="partners logo"></li>
+                    <li class="mx-[20px] content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_3.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_4.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_5.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_6.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_7.png" alt="partners logo"></li>
+                </ul>    
+            </div>
+            
+        </div>
+
+                
+    </section>
     <section id="section-3" class="bg-[#d9d0c9]">
         <div class="header">
             <h3 id="contact" class="m-0">Nous contacter</h3>
@@ -287,7 +323,7 @@
                 </div>
             </div>
 
-            <div class="w-full h-[300px]" id="map"></div>
+            <div class="w-full h-[200px]" id="map"></div>
 
         </div>
     </section>
