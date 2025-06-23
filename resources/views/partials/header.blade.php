@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr" class="h-full">
 
+{{-- Made by KACOU KACOU EMMANUEL --}}
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

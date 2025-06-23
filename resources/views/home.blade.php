@@ -258,6 +258,7 @@
                     <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_5.png" alt="partners logo"></li>
                     <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_6.png" alt="partners logo"></li>
                     <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_7.png" alt="partners logo"></li>
+                    <li class="content-center size-[145px]"><img class="object-contain" src="/assets/partners/partner_9.png" alt="partners logo"></li>
                 </ul>
                 <ul class="partners1 flex gap-2 items-center">
                     <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_1.png" alt="partners logo"></li>
@@ -268,6 +269,7 @@
                     <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_5.png" alt="partners logo"></li>
                     <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_6.png" alt="partners logo"></li>
                     <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_7.png" alt="partners logo"></li>
+                    <li class="content-center size-[145px]"><img class="object-contain" src="/assets/partners/partner_9.png" alt="partners logo"></li>
                 </ul>    
             </div>
             

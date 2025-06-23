@@ -115,7 +115,7 @@
                 <div>
                     <h3
                         class="flex justify-center flex-wrap gap-1 items-center text-center mb-8 font-bold text-[20px] text-darkBlue">
-                        Les piliers d'ATTRON CAB
+                        L'équipe d'ATTRON CAB
                         <img class="size-[25]" src="/assets/icons/team.svg" alt="team svg">
                     </h3>
                 </div>
@@ -139,6 +139,13 @@
                         <img class="picture" src="/assets/img/Mr-Z.png" alt="image d'illustration">
                         <p class="text-xs text-darkBlue text-center font-bold mt-4">
                             Mr HANHELLI Donatien - Directeur Fiscal
+                        </p>
+                    </div>
+
+                    <div class="size-[155px] rounded-full  bg-gray-200">
+                        <img class="picture" src="/assets/img/Miss-X.png" alt="image d'illustration">
+                        <p class="text-xs text-darkBlue text-center font-bold mt-4">
+                            KOUAME Akissi Naomie - Comptable
                         </p>
                     </div>
                 </div>
