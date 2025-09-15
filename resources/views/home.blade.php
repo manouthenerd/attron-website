@@ -1,6 +1,8 @@
 @include('partials.header')
 
+
 <main class="h-full transition-fade">
+
     <section id="hero-section">
         <div id="circle" class="p-4">
             <h4 class="text-white">
@@ -14,10 +16,15 @@
                 En savoir +
             </a>
         </div>
+
+        <div>
+            <img style="z-index: 1; position: absolute;" src="/assets/svg/curly-arrow.svg">
+        </div>
+
     </section>
 
     <section id="section-2">
-        <div id="section-container">
+        <div id="section-container" class="bg-radial-[at_25%_25%] from-[#053a4a37] via-white to-[#9d8c4763]">
             <div class="box">
                 <h3>Rapprochez-vous des experts</h3>
 
@@ -47,9 +54,9 @@
             </div>
         </div>
 
-        <div class="py-[10px] [@media(min-width:820px)]:px-[60px] min-my-4">
+        <div  class="py-[10px] [@media(min-width:820px)]:px-[60px] min-my-4">
             <h3 class="text-center font-bold text-darkBlue my-2">La vision qui nous alimente </h3>
-            <p class="leading-[30px] bg-[#9d8c477d] p-2">
+            <p id="test" class="leading-[30px] bg-[#9d8c477d] p-2">
                 Notre vision est de devenir le leader incontournable dans le domaine de la comptabilité en offrant des
                 services sur mesure, axés sur l'excellence, l'innovation et la performance. Nous aspirons à être le
                 conseiller stratégique privilégié de nos clients, en les accompagnant dans l’optimisation de leur
@@ -250,32 +257,50 @@
         <div class="grid">
             <div class="flex gap-2">
                 <ul class="partners1 flex gap-2 items-center">
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_1.png" alt="partners logo"></li>
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_2.png" alt="partners logo"></li>
-                    <li class="content-center size-[150px] mr-[25px]"><img class="object-contain" src="/assets/partners/partner_8.png" alt="partners logo"></li>
-                    <li class="mx-[20px] content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_3.png" alt="partners logo"></li>
-                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_4.png" alt="partners logo"></li>
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_5.png" alt="partners logo"></li>
-                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_6.png" alt="partners logo"></li>
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_7.png" alt="partners logo"></li>
-                    <li class="content-center size-[145px]"><img class="object-contain" src="/assets/partners/partner_9.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_1.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_2.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px] mr-[25px]"><img class="object-contain"
+                            src="/assets/partners/partner_8.png" alt="partners logo"></li>
+                    <li class="mx-[20px] content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_3.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain"
+                            src="/assets/partners/partner_4.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_5.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain"
+                            src="/assets/partners/partner_6.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_7.png" alt="partners logo"></li>
+                    <li class="content-center size-[145px]"><img class="object-contain"
+                            src="/assets/partners/partner_9.png" alt="partners logo"></li>
                 </ul>
                 <ul class="partners1 flex gap-2 items-center">
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_1.png" alt="partners logo"></li>
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_2.png" alt="partners logo"></li>
-                    <li class="content-center size-[150px] mr-[25px]"><img class="object-contain" src="/assets/partners/partner_8.png" alt="partners logo"></li>
-                    <li class="mx-[20px] content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_3.png" alt="partners logo"></li>
-                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_4.png" alt="partners logo"></li>
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_5.png" alt="partners logo"></li>
-                    <li class="content-center size-[150px]"><img class="object-contain" src="/assets/partners/partner_6.png" alt="partners logo"></li>
-                    <li class="content-center size-[200px]"><img class="object-contain" src="/assets/partners/partner_7.png" alt="partners logo"></li>
-                    <li class="content-center size-[145px]"><img class="object-contain" src="/assets/partners/partner_9.png" alt="partners logo"></li>
-                </ul>    
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_1.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_2.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px] mr-[25px]"><img class="object-contain"
+                            src="/assets/partners/partner_8.png" alt="partners logo"></li>
+                    <li class="mx-[20px] content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_3.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain"
+                            src="/assets/partners/partner_4.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_5.png" alt="partners logo"></li>
+                    <li class="content-center size-[150px]"><img class="object-contain"
+                            src="/assets/partners/partner_6.png" alt="partners logo"></li>
+                    <li class="content-center size-[200px]"><img class="object-contain"
+                            src="/assets/partners/partner_7.png" alt="partners logo"></li>
+                    <li class="content-center size-[145px]"><img class="object-contain"
+                            src="/assets/partners/partner_9.png" alt="partners logo"></li>
+                </ul>
             </div>
-            
+
         </div>
 
-                
+
     </section>
     <section id="section-3" class="bg-[#d9d0c9]">
         <div class="header">
@@ -293,7 +318,9 @@
                 </div>
                 <div>
                     <p>+225 07 08 11 68 11</p>
+                    <p>+225 07 78 40 10 57</p>
                     <p>+225 07 48 73 52 56</p>
+                    <p>+225 05 86 93 40 58</p>
                 </div>
             </div>
 

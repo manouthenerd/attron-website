@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
-    scroll-behavior: smooth;
     font-family: "Rubik", sans-serif;
 }
 
@@ -122,8 +121,10 @@ body {
 }
 
 #default-navbar {
-    background-color: #fff;
+    position: fixed;
     z-index: 999;
+    background: white;
+    backdrop-filter: blur(75px);
 }
 
 #default-navbar,
@@ -140,7 +141,7 @@ body {
     transition-behavior: allow-discrete;
     overflow: hidden;
     top: 0;
-    position: sticky;
+    position: fixed;
     z-index: 999;
     height: 0;
     width: 100%;
@@ -209,7 +210,7 @@ body {
 #links a,
 .mobile a {
     padding: 8px;
-    color: #053A4A;
+    color: #9d8c47;
     font-size: 15px;
     border-radius: 6px;
     transition: color .5s, background-color .5s;
@@ -221,15 +222,13 @@ body {
 
 
 #links a:hover {
-    color: #fff;
-    background-color: #053A4A;
+    color: #053A4A;
 }
 
 .is-active {
     padding: 8px;
     border-radius: 6px;
-    color: #fff !important;
-    background-color: #053A4A;
+    color: #053A4A !important;
 }
 
 section div h3 {
@@ -243,15 +242,25 @@ h3 {
 
 #hero-section {
     padding-top: 20px;
-    background: url("/public/assets/background.jpg") center top;
+    background: url("/public/assets/bg-attron.webp") center top;
     background-size: cover;
     height: 800px;
     width: 100%;
+    position: relative;
 }
 
+#hero-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
 
 #circle {
-    margin: 40px 5px;
+    position: relative;
+    z-index: 1;
+    margin-top: 10rem;
+    margin-left: 0.5rem;
     color: #fff;
     padding: 5px;
     font-size: 21px;
@@ -263,9 +272,37 @@ h3 {
     align-items: center;
     height: 400px;
     width: 400px;
+    background: #9D8C47CF;
+    transition: all .7s ease;
+}
+
+#circle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
     background: #9D8C47;
-    filter: drop-shadow(4px 6px 21px #bcbcbc);
-    transition: all .2s;
+    /* même couleur que ton cercle mais opaque */
+    transform: translate(-50%, -50%) scale(1);
+    z-index: -1;
+    /* derrière le cercle principal */
+    opacity: 0.6;
+    animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
 }
 
 #circle a {
@@ -274,7 +311,7 @@ h3 {
 }
 
 #circle:hover {
-    background-color: #053A4A;
+    background-color: #053A4AAD;
 
     & a {
         background-color: #9D8C47 !important;
@@ -395,6 +432,7 @@ h3 {
 
 .card {
     transition: filter .3s;
+
     img {
         width: 232px;
         height: 155px;
@@ -409,12 +447,12 @@ h3 {
     object-fit: cover;
     padding: 6px 5px;
     margin: 2px;
-    }
+}
 
-    .error {
-        color: rgb(241, 25, 25);
-        font-size: 14px;
-    }
+.error {
+    color: rgb(241, 25, 25);
+    font-size: 14px;
+}
 
 footer {
     text-wrap: wrap;
@@ -504,4 +542,36 @@ textarea {
 
 .partners1 {
     animation: slide1 12s infinite linear;
+}
+
+#arrow-svg {
+    fill: #FFF;
+    position: absolute;
+    z-index: 999;
+}
+
+#test {
+  position: relative; /* nécessaire pour que le pseudo-élément se positionne correctement */
+  overflow: hidden;   /* pour que le pseudo-élément ne dépasse pas */
+  z-index: 0;
+  padding: 2rem;      /* exemple de padding */
+  color: #fff;        /* texte visible sur le dégradé */
+}
+
+#test::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: linear-gradient(135deg, #9D8C47, #053A4A, #E2D9C9);
+
+    background-image:
+        linear-gradient(135deg, #9D8C47, #053A4A, #E2D9C9),;
+    background-repeat: no-repeat, repeat;
+    background-size: cover, auto;
+    background-blend-mode: overlay;
+
+    pointer-events: none;
+    opacity: 0.3;
 }
