@@ -488,11 +488,23 @@ footer {
     }
 
     #circle {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         margin: 0 auto;
         position: relative;
-        top: -180px;
+        top: 0;
+    }
+
+    #circle h4 {
+        font-size: 17px;
+    }
+
+    #circle p {
+        font-size: 16px;
+    }
+
+    #about-link {
+        font-size: 14px;
     }
 }
 

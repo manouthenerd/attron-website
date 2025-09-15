@@ -99,7 +99,7 @@
         </div>
 
         <div id="services" class="flex justify-center">
-            <a href="/services" class="p-2 rounded-sm [#053A4A] text-white font-bold" href="/services">Voir tous les
+            <a href="/services" class="p-2 rounded-sm text-[#053A4A]! font-bold" href="/services">Voir tous les
                 services</a>
         </div>
 
