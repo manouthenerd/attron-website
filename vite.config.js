@@ -4,9 +4,9 @@ import laravel from 'laravel-vite-plugin';
 export default defineConfig({
     plugins: [
         laravel([
-            '/css/style.css',
-            '/js/app.js',
-            '/css/app.css',
+            '/public/css/style.css',
+            '/public/js/app.js',
+            '/public/css/app.css',
         ]),
     ],
 });
