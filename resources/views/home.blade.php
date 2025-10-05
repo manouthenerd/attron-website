@@ -1,7 +1,7 @@
 @include('partials.header')
 
 
-<main class="h-full transition-fade">
+<main style="overflow: hidden" class="h-full transition-fade overflow-hidden">
 
     <section id="hero-section">
         <div id="circle" class="p-4">

@@ -8,6 +8,7 @@
         <a href="/contact" class="{{ request()->is('contact') ? 'active-mobile-link' : ''}}">Prendre un rendez-vous</a>
     </div>
 </nav>
+
 <nav id="default-navbar" class="flex w-full justify-between items-center min-h-8 px-2 sticky top-0">
     <div id="logo" class="w-[100px]">
         <a href="/"><img src="/assets/logo-attron.png" alt="logo ATTRON cab" /></a>

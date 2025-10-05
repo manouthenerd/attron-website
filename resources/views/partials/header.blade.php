@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr" class="h-full">
 
-{{-- Made by KACOU KACOU EMMANUEL --}}
+{{-- Author and dev: KACOU KACOU EMMANUEL --}}
 
 <head>
     <meta charset="UTF-8" />
@@ -15,12 +15,11 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
-    
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
-    @vite('resources/css/style.css')
-    @vite('resources/css/app.css')
-    @vite('resources/js/app.js')
+
+    @vite(['public/css/app.css', 'public/js/app.js'])
+  
 
 </head>
 
