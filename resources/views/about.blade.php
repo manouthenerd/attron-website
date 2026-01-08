@@ -7,7 +7,7 @@
 
     <section class="grid place-content-center gap-4 mt-4">
 
-        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
+        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1100">
 
             <p class="p-2 space-y-2">
                 <span class="font-bold text-darkBlue">ATTRON CAB</span> est une société de comptabilité, d'audit, de
@@ -24,7 +24,7 @@
             </p>
         </div>
 
-        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
+        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2" data-aos="zoom-in" data-aos-delay="60" data-aos-duration="1200">
             <h4 class="text-center font-bold text-darkBlue">1. Nos services</h4>
             <ul class="list-[square] list-inside space-y-4 mt-4">
                 <li>L'audit, la comptabilité, la finance et la fiscalité;</li>
@@ -41,7 +41,7 @@
             </ul>
         </div>
 
-        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
+        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2" data-aos="zoom-in" data-aos-delay="70" data-aos-duration="1300">
             <h4 class="text-center font-bold text-darkBlue">2. Pourquoi nous choisir ?</h4>
             <ul class="list-[square] list-inside space-y-4 mt-4">
                 <li><strong>Un service personnalisé</strong> : Nous nous adaptons aux besoins spécifiques de chaque
@@ -61,7 +61,7 @@
             </ul>
         </div>
 
-        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2">
+        <div class="indent-3 text-justify bg-[#bcbc] p-2 space-y-2" data-aos="zoom-in" data-aos-delay="80" data-aos-duration="1400">
             <h4 class="text-center font-bold text-darkBlue">3. Nos valeurs</h4>
             <p>Chez <strong class="text-darkBlue">ATTRON CAB</strong>, nous sommes guidés par des valeurs fondamentales
                 qui font notre
@@ -121,28 +121,28 @@
                 </div>
                 <div id="team" class="flex justify-center flex-wrap gap-[3.5rem] ">
 
-                    <div class="size-[155px] rounded-full  bg-gray-200">
-                        <img class="picture" src="/assets/img/Mr-X.jpg" alt="image d'illustration">
+                    <div class="size-[155px] rounded-full  bg-gray-200" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <img class="picture" src="/assets/img/bg-w-bg.png" alt="image d'illustration">
                         <p id="firstUser" class="text-xs text-darkBlue text-center font-bold mt-4">
                             Mr ATTRON Achille - Directeur Général
                         </p>
                     </div>
 
-                    <div class="size-[155px] rounded-full  bg-gray-200">
+                    <div class="size-[155px] rounded-full  bg-gray-200" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1100">
                         <img class="picture" src="/assets/img/Mr-Y.jpg" alt="image d'illustration">
                         <p class="text-xs text-darkBlue text-center font-bold mt-4">
                             Mr N'GUESSAN Louis Max - Directeur Financier
                         </p>
                     </div>
 
-                    <div class="size-[155px] rounded-full  bg-gray-200">
+                    <div class="size-[155px] rounded-full  bg-gray-200" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
                         <img class="picture" src="/assets/img/Mr-Z.png" alt="image d'illustration">
                         <p class="text-xs text-darkBlue text-center font-bold mt-4">
                             Mr HANHELLI Donatien - Directeur Fiscal
                         </p>
                     </div>
 
-                    <div class="size-[155px] rounded-full  bg-gray-200">
+                    <div class="size-[155px] rounded-full  bg-gray-200" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1300">
                         <img class="picture" src="/assets/img/Miss-X.png" alt="image d'illustration">
                         <p class="text-xs text-darkBlue text-center font-bold mt-4">
                             KOUAME Akissi Naomie - Comptable
