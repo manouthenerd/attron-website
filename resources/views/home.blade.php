@@ -3,29 +3,36 @@
 
 <main style="overflow: hidden" class="h-full transition-fade overflow-hidden">
 
-    <section id="hero-section">
-        <div id="circle" class="p-4">
-            <h4 class="text-white">
-                Akwaba à <span id="brandname" class="font-bold text-darkBlue">ATTRON CAB</span>
-            </h4>
-            <p>
-                Votre cabinet d'expertise en audit, en finance-compta et marketing et
-                communication.
-            </p>
-            <a id="about-link" href="/about" class="mt-8 rounded-md p-2 border-none">
-                En savoir +
-            </a>
+    <section id="hero-section" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- Image avec filtre CSS intégré -->
+        <div class="absolute inset-0 z-0">
+            <img src="/assets/bg-attron.webp" alt="Fond Attron Cab" class="w-full h-full object-cover"
+                style="filter: brightness(0.7) opacity(0.4);" />
         </div>
 
-        <div>
-            <img style="z-index: 1; position: absolute;" src="/assets/svg/curly-arrow.svg">
+        <!-- Conteneur principal du contenu -->
+        <div class="relative z-10 container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-white font-bold space-y-2 text-4xl ">
+                    <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+                        Akwaba à <span class="text-[#9D8C47] italic my-2 text-5xl" id="text-logo">ATTRON-CAB</span>,</p>
+                    <div>
+                        <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="75" data-aos-duration="1200">Votre
+                            partenaire de confiance</p>
+                        {{-- <p>en matière de <span class="text-[#9D8C47]">comptabilité</span></p> --}}
+                        <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="85" data-aos-duration="1300"
+                            class="mt-2" id="element"></p>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </section>
+
+
 
     <section id="section-2">
         <div id="section-container" class="bg-radial-[at_25%_25%] from-[#053a4a37] via-white to-[#9d8c4763]">
-            <div class="box">
+            <div class="box" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
                 <h3>Rapprochez-vous des experts</h3>
 
                 <p>
@@ -38,7 +45,7 @@
                 <div id="mini-circle1" class="mini-circle"></div>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1100">
 
                 <h3 class="head-2">Des services de qualités et sur mesure.</h3>
 
@@ -54,9 +61,9 @@
             </div>
         </div>
 
-        <div  class="py-[10px] [@media(min-width:820px)]:px-[60px] min-my-4">
-            <h3 class="text-center font-bold text-darkBlue my-2">La vision qui nous alimente </h3>
-            <p id="test" class="leading-[30px] bg-[#9d8c477d] p-2">
+        <div class="py-[10px] [@media(min-width:820px)]:px-[60px] min-my-4">
+            <h3 class="text-center font-bold text-darkBlue my-2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1200">La vision qui nous alimente </h3>
+            <p id="test" class="leading-[30px] bg-[#9d8c477d] p-2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1200">
                 Notre vision est de devenir le leader incontournable dans le domaine de la comptabilité en offrant des
                 services sur mesure, axés sur l'excellence, l'innovation et la performance. Nous aspirons à être le
                 conseiller stratégique privilégié de nos clients, en les accompagnant dans l’optimisation de leur
@@ -64,6 +71,13 @@
                 transparence totale et un haut niveau de fiabilité. Notre engagement : offrir des solutions comptables
                 adaptées aux défis contemporains et renforcer la pérennité des entreprises, quelle que soit leur taille.
             </p>
+
+            <div class="grid grid-cols-2 mt-2">
+                <img src="/assets/shoot/img-3.jpeg" alt="illustration3" class="rounded" data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+                <img src="/assets/shoot/img-4.jpeg" alt="illustration4" class="rounded" data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+                <img src="/assets/shoot/img-5.jpeg" alt="illustration3" class="rounded" data-aos="zoom-in-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1200">
+                <img src="/assets/shoot/img-2.jpeg" alt="illustration4" class="rounded" data-aos="zoom-in-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1200">
+            </div>
         </div>
     </section>
 
@@ -120,7 +134,7 @@
                         Votre message a été envoyé avec succès.
                     </div>
                     @csrf
-                    <div class="my-4">
+                    <div class="my-4" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                             Forme juridique
                         </label>
@@ -145,7 +159,7 @@
                         @enderror
                     </div>
 
-                    <div class="my-6">
+                    <div class="my-6" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="activity">
                             Secteur d'activité
                         </label>
@@ -157,7 +171,7 @@
                         @enderror
                     </div>
 
-                    <div class="my-6">
+                    <div class="my-6" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                             Raison Sociale
                         </label>
@@ -169,7 +183,7 @@
                         @enderror
                     </div>
 
-                    <div class="my-6">
+                    <div class="my-6" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                             Date de création
                         </label>
@@ -180,7 +194,7 @@
                         @enderror
                     </div>
 
-                    <div class="my-6">
+                    <div class="my-6" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
                             Email
                         </label>
@@ -192,7 +206,7 @@
                         @enderror
                     </div>
 
-                    <div class="my-6">
+                    <div class="my-6" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="contact">
                             Téléphone
                         </label>
@@ -204,13 +218,13 @@
                         @enderror
                     </div>
 
-                    <div class="my-4">
+                    <div class="my-4" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="workers">
                             Nombre de salarié(s)
                         </label>
 
                         <select name="workers" id="workers" required
-                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 bg-white leading-tight focus:outline-none focus:shadow-outline">
+                            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-700 mb-3 bg-white leading-tight focus:outline-none focus:shadow-outline" data-aos="fade-up" data-aos-duration="1600">
                             <option value="Moins de 10 salariés">Moins de 10 salariés</option>
                             <option value="10 à 50 salariés">10 à 50 salariés</option>
                             <option value="Plus de 50 salariés">Plus de 50 salariés</option>
@@ -222,7 +236,7 @@
                         @enderror
                     </div>
 
-                    <div class="my-6">
+                    <div class="my-6" data-aos="zoom-in" data-aos-duration="1000">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
                             Votre demande en quelques lignes
                         </label>
@@ -235,7 +249,7 @@
 
                     </div>
 
-                    <div class="flex items-center justify-between">
+                    <div class="flex items-center justify-between" data-aos="zoom-in" data-aos-duration="1000">
                         <button id="estimationButton"
                             class="bg-gray-500 hover:bg-[#053A4A] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                             type="submit">
