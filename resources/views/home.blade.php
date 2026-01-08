@@ -13,9 +13,9 @@
         <!-- Conteneur principal du contenu -->
         <div class="relative z-10 container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
-                <div class="text-white font-bold space-y-2 text-4xl ">
+                <div class="text-white font-bold space-y-2 text-4xl max-[600px]:text-3xl max-[500px]:text-2xl ">
                     <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-                        Akwaba à <span class="text-[#9D8C47] italic my-2 text-5xl" id="text-logo">ATTRON-CAB</span>,</p>
+                        Akwaba à <span class="text-[#9D8C47] italic my-2 min-[600px]:text-5xl" id="text-logo">ATTRON-CAB</span>,</p>
                     <div>
                         <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="75" data-aos-duration="1200">Votre
                             partenaire de confiance</p>
