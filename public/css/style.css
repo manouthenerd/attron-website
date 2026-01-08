@@ -170,6 +170,10 @@ main {
 }
 
 
+#element, #text-logo {
+    text-shadow: 1px 2px 2px #000;
+}
+
 
 #rdv {
     background: #9D8C47;
