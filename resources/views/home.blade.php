@@ -19,7 +19,6 @@
                     <div>
                         <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="75" data-aos-duration="1200">Votre
                             partenaire de confiance</p>
-                        {{-- <p>en matière de <span class="text-[#9D8C47]">comptabilité</span></p> --}}
                         <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="85" data-aos-duration="1300"
                             class="mt-2" id="element"></p>
                     </div>
@@ -73,10 +72,10 @@
             </p>
 
             <div class="grid grid-cols-2 mt-2">
-                <img src="/assets/shoot/img-3.jpeg" alt="illustration3" class="rounded" data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-                <img src="/assets/shoot/img-4.jpeg" alt="illustration4" class="rounded" data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-                <img src="/assets/shoot/img-5.jpeg" alt="illustration3" class="rounded" data-aos="zoom-in-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1200">
-                <img src="/assets/shoot/img-2.jpeg" alt="illustration4" class="rounded" data-aos="zoom-in-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1200">
+                <img src="/assets/shoot/img-2.jpeg" alt="illustration3" class="rounded" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+                <img src="/assets/shoot/img-4.jpeg" alt="illustration4" class="rounded" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1100">
+                <img src="/assets/shoot/img-5.jpeg" alt="illustration3" class="rounded" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1200">
+                <img src="/assets/shoot/sec.jpeg" alt="illustration4" class="rounded" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1300">
             </div>
         </div>
     </section>
